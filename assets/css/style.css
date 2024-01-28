@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:  'Roboto', 'Open Sans', sans-serif;
+}
+
+#contenedorPrincipal {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+#nuevoChatContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc; 
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+#nuevoChat {
+    background-color: #A491D2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#estatusUsuario {
+    padding-left: 20px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.usuarioInfo {
+    display: flex;
+    align-items: center;
+}
+
+.usuarioInfo img {
+    margin-right: 10px;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+}
+
+.usuarioInfo .infoUsuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.usuarioInfo strong {
+    margin-bottom: 2px;
+    font-size: 14px; 
+}
+
+.usuarioInfo span {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 10px; 
+}
+
+#iconosUsuario {
+    display: flex;
+    align-items: center;
+}
+
+#iconosUsuario i {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#contactosLista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    margin: 12px 5px 10px 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #ccc; 
+    width: 100%; 
+}
+
+#contactos {
+    flex: 0 0 250px; 
+    background-color: white;
+    min-width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 0px;
+}
+
+.contacto img {
+    width: 35px; 
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.contacto div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto strong {
+    margin-bottom: 2px;
+    font-size: 14px; 
+}
+
+.contacto p {
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+    font-size: 12px; 
+}
+
+.contacto u {
+    margin: 0; 
+}
+
+#seccionPrincipal {
+    flex: 1 1 0; 
+    padding: 20px;
+    background-color:  #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo {
+    text-align: center;
+    max-width: 400px; 
+    margin-bottom: 20px;
+}
+
+#logo img {
+    width: 200px; 
+    height: 200px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 34px; 
+    margin-bottom: 10px;
+}
+
+#logo span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px; 
+    margin-bottom: 10px;
+}
+
+
+
+
